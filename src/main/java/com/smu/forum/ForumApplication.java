@@ -8,9 +8,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 @SpringBootApplication
 @EnableConfigurationProperties({Property.class})
 public class ForumApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(ForumApplication.class, args);
 	}
-
 }
